@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   margin:0;
+   padding:0;   
+}
+
+p {
+   padding:2px;
+}
+
+.container{
+   height:100vh;
+}
+
+.anasayfa .container {
+   background:url(minecraft.jpeg);  
+   background-size:100% 100%;
+}
+
+
+.hakkimizda .container {
+   background:url(ThecnoBlade\ never\ dies!.jpg);  
+   background-size:100% 100%;
+}
+
+
+.bilgiler .container {
+   background:url(nostaliga.webp);  
+   background-size:100% 100%;
+}
+
+
+.saldiri .container {
+   background:url(14.jpg);  
+   background-size:100% 100%;
+}
+
+
+.hileller .container {
+   background:url(Minecraft_logo.jpg);  
+   background-size:100% 100%;
+}
+
+
+.Yararlanilan_Kaynaklar .container {
+   background:url(agac.jpeg);  
+   background-size:100% 100%;
+}
+
+
+.container .navbar{
+   width: 100%;
+   height: 80px;
+   background:rgba(0, 255, 234, 0.58)
+}
+
+.navbar .logo{
+   display:inline-block;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+.navbar .logo a{
+   text-decoration: none;
+   font-size: 30px;
+   font-family: sans-serif;
+   color:#f3f3f3
+}
+
+.navbar ul{
+   float: right;
+   margin-right: 20px;
+}
+
+.navbar ul li{
+   list-style: none;
+   display:inline-block;
+   margin: 0 8px;
+   line-height: 80px;
+}
+
+.navbar ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 6px 13px;
+   font-family: Roboto;
+   transition: all 0.5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+   background:#ff6600;
+   border-radius:2px;
+}
+
+.baslik {
+   text-align: center;
+   padding: 10px;
+   margin-top: 50px;
+   color:beige
+}
+
+.mustafa {
+   color: beige;
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.yasin {
+   color:aqua;
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.m {
+   color:rgb(223, 142, 76);
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.i {
+   color:rgb(153, 153, 153);
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.n {
+   color:rgb(229, 255, 0);
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.e {
+   color:rgb(247, 247, 247);
+   text-align: center;
+   text-shadow: 1px 1px 5px black;
+}
+
+.c {
+   color:aqua;
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.r {
+   color:rgb(107, 100, 90);
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+
+.a {
+   color:rgb(0, 132, 255);
+   text-align: center;
+   text-shadow: 1px 1px 2px black;
+}
+
+.container .center{
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   font-family: sans-serif;
+   user-select: none;
+}
+
+.center h1{
+   color:black;
+   font-size: 80px;
+   font-weight: bold;
+   text-align: center;
+   padding: 2px;
+}
+
+.center h2{
+   color:black;
+   text-align: center;
+   padding: 2px;
+}
+
+.center .buttons {
+   text-align: center;
+}
+
+.center h2{
+   color:#0044fffb;
+   font-size:50px;
+   font-weight: bold;
+   margin: top 10px;
+   text-align: center;
+}
+
+.buttons button{
+   height:50px;
+   width: 150px;
+   font-size: 18px;
+   font-weight: bold;
+   background: rgb(207,96,88);
+   border:solid 1px red;
+   cursor:pointer;
+   outline:none;
+   border-radius: 25px;
+   transition:0.5s
+}
+
+.buttons button:hover{
+   background:#fff;
+}
+
+div.saydam {
+   background-color: rgba(0,0,0,0.7);
+   margin: auto;
+   padding: 30px;
+   height: 100%;
+}
